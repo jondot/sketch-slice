@@ -98,8 +98,7 @@ And `garden` will contain an array of 'parts' (a name that abstracts a Sketch la
         ...
     ]
 }
-
-
+```
 
 # Contributing
 
@@ -112,4 +111,7 @@ To all [Contributors](https://github.com/jondot/sketch-slice/graphs/contributors
 # Copyright
 
 Copyright (c) 2018 [Dotan Nahum](http://gplus.to/dotan) [@jondot](http://twitter.com/jondot). See [LICENSE](LICENSE.txt) for further details.
+
+```
+
 ```
