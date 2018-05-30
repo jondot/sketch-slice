@@ -1,0 +1,20 @@
+{
+  "name": "sketch_frames",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "jest": {
+    "moduleFileExtensions": ["py"],
+    "runner": "jest-pytest",
+    "testPathIgnorePatterns": ["snap_.*\\.py"],
+    "testMatch": ["**/tests/?(*_)test.py"]
+  },
+  "devDependencies": {
+    "jest": "^23.0.0",
+    "jest-pytest": "^0.7.0"
+  }
+}

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sketch-slice"
+version = "0.1.0"
+description = "Slice sketch files for React Native import."
+authors = ["Dotan Nahum <jondotan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~2.7 || ^3.4"
+jsonpath-ng = "^1.4"
+toolz = "^0.9.0"
+glom = "^18.1"
+click = "^6.7"
+envoy = "^0.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.5"
+pytest-jest = "^0.3.0"
+
+[tool.poetry.scripts]
+sketch-slice = 'sketch_slice.cli:main'
